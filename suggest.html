@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggest</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="suggest.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+          <a href="index.html">Bite & Delight</a>
+        </div>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#">Categories</a>
+            <ul class="dropdown-menu">
+              <li><a href="categories/breakfast.html">Breakfast</a></li>
+              <li><a href="categories/lunch.html">Lunch</a></li>
+              <li><a href="categories/dinner.html">Dinner</a></li>
+              <li><a href="categories/snacks.html">Snacks</a></li>
+              <li><a href="categories/desserts.html">Desserts</a></li>
+              <li><a href="categories/drinks.html">Drinks</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="suggest.html" class="btn">Suggest Recipe</a></li>
+        </ul>
+      </nav>
+
+
+      <div class="suggest-page">
+        <h1 class="suggest-title">Suggest a Recipe</h1>
+        <form class="suggest-form" action="submit-suggestion.php" method="post">
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="nickname">Nickname:</label>
+            <input type="text" id="nickname" name="nickname" placeholder="Enter your nickname">
+          </div>
+          <div class="form-group">
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email ID" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+          </div>
+          <div class="form-group">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+              <option value="">Select Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Detailed Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Enter your detailed suggestion or recipe" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Submit Suggestion</button>
+        </form>
+      </div>
+      
+    
+
+
+
+
+
+      <footer class="site-footer">
+        <div class="footer-content">
+          <h2>Recipe Website</h2>
+          <p>
+            This website is a project by <strong>Khushdil Ansari</strong> (Enrollment No: 0827CS221128) and 
+            <strong>Harshit Bhoargade</strong> (Enrollment No: 0827CS221104) as part of the Internet and Web Technology course.
+          </p>
+          <p>
+            Submitted to <strong>Prof. Shradha Sharma</strong>, Computer Science Department, 
+            <strong>Acropolis Institute of Technology and Research, Indore</strong>.
+          </p>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2024 Recipe Website. All Rights Reserved.</p>
+        </div>
+      </footer>
+</body>
+</html>

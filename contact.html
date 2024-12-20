@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+          <a href="index.html">Bite & Delight</a>
+        </div>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#">Categories</a>
+            <ul class="dropdown-menu">
+              <li><a href="categories/breakfast.html">Breakfast</a></li>
+              <li><a href="categories/lunch.html">Lunch</a></li>
+              <li><a href="categories/dinner.html">Dinner</a></li>
+              <li><a href="categories/snacks.html">Snacks</a></li>
+              <li><a href="categories/desserts.html">Desserts</a></li>
+              <li><a href="categories/drinks.html">Drinks</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="suggest.html" class="btn">Suggest Recipe</a></li>
+        </ul>
+      </nav>
+
+      <div class="contact-container">
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you! Please fill out the form below.</p>
+        <form action="#" method="POST" class="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender" required>
+            <option value="" disabled selected>Select your gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+    
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" placeholder="Enter your age" min="1" required>
+    
+          <label for="email">Email ID:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
+    
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+    
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    
+
+
+
+
+      <footer class="site-footer">
+        <div class="footer-content">
+          <h2>Recipe Website</h2>
+          <p>
+            This website is a project by <strong>Khushdil Ansari</strong> (Enrollment No: 0827CS221128) and 
+            <strong>Harshit Bhoargade</strong> (Enrollment No: 0827CS221104) as part of the Internet and Web Technology course.
+          </p>
+          <p>
+            Submitted to <strong>Prof. Shradha Sharma</strong>, Computer Science Department, 
+            <strong>Acropolis Institute of Technology and Research, Indore</strong>.
+          </p>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2024 Recipe Website. All Rights Reserved.</p>
+        </div>
+      </footer>
+
+
+
+</body>
+</html>

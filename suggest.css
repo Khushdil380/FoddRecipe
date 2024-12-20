@@ -1,0 +1,109 @@
+/* Suggest Page Styling */
+/* Body Background Gradient */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #d8a809, #4314c4, #db1c0f);
+    background-size: 300% 300%;
+    animation: bodyGradient 10s ease infinite;
+    color: #ffffff;
+  }
+  
+
+
+.suggest-page {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #fbc531, #4cd137, #00a8ff);
+    background-size: 200% 200%;
+    animation: gradientAnimation 8s ease infinite;
+  }
+  
+  /* Gradient Animation */
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  /* Title */
+  .suggest-title {
+    text-align: center;
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Form */
+  .suggest-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Form Group */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  select,
+  textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    box-shadow: 0 0 10px #4cd137;
+  }
+  
+  /* Textarea */
+  textarea {
+    resize: none;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    background-color: #4cd137;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #00a8ff;
+    transform: scale(1.05);
+  }
+  
+
+
+
+
+
+
+
+
